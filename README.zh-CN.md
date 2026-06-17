@@ -20,15 +20,6 @@
 - **中英切换**：右上角语言按钮切换中文/英文界面
 - **暗色模式**：右上角主题按钮切换亮色/暗色主题
 
-## 本地运行
-
-```bash
-cd knowledge-graph
-npm install
-npm run dev
-```
-
-打开 http://localhost:5173/ 即可使用。
 
 ## 技术栈
 
