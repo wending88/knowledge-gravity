@@ -1,6 +1,6 @@
 **[English](README.md)** | **[中文](README.zh-CN.md)**
 
-# Knowledge Gravity
+# Knowledge Gravity - knowledge graph
 
 A browser-based knowledge graph visualization tool with force-directed layout, real-time editing, and JSON import/export.
 
