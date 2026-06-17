@@ -1,25 +1,35 @@
+**[English](README.md)** | **[中文](README.zh-CN.md)**
+
 # Knowledge Gravity
 
-一个基于浏览器的知识图谱可视化工具，支持拖拽布局、实时编辑和 JSON 导入导出。
+A browser-based knowledge graph visualization tool with force-directed layout, real-time editing, and JSON import/export.
 
-## 在线体验
+## Live Demo
 
-👉 [点击打开](https://wwendyng.github.io/knowledge-gravity/)
+👉 [Open App](https://wwendyng.github.io/knowledge-gravity/)
 
-## 功能
+## Features
 
-- **创建节点**：点击右下角 `+` 按钮添加节点
-- **编辑属性**：点击节点或连接线，在右侧面板修改名称、颜色、大小等
-- **添加连接**：选中节点后点击「添加连接」，选择目标节点建立关系
-- **拖拽布局**：直接拖拽节点调整位置，力导向布局自动排列
-- **搜索高亮**：顶部搜索框支持按名称、分组、描述搜索并高亮
-- **路径查找**：开启路径模式，依次点击起点和终点，自动计算最短路径
-- **导入导出**：支持 JSON 格式的数据导入和导出
-- **中英切换**：右上角语言按钮切换中文/英文界面
-- **暗色模式**：右上角主题按钮切换亮色/暗色主题
+- **Create Nodes**: Click the `+` button at the bottom-right corner to add nodes
+- **Edit Properties**: Click any node or edge to modify its name, color, size, etc. in the side panel
+- **Add Connections**: Select a node, click "Add Connection", then pick a target node to create a relationship
+- **Drag Layout**: Drag nodes to reposition; the force-directed layout adjusts automatically
+- **Search & Highlight**: Use the top search bar to find and highlight nodes by name, group, or description
+- **Path Finding**: Enable path mode, click start and end nodes to calculate the shortest path
+- **Import / Export**: Import and export graph data in JSON format
+- **i18n**: Switch between Chinese and English with the language button in the top-right corner
+- **Dark Mode**: Toggle light/dark theme with the theme button in the top-right corner
 
+## Quick Start
 
+```bash
+cd knowledge-graph
+npm install
+npm run dev
+```
 
-## 技术栈
+Open http://localhost:5173/
+
+## Tech Stack
 
 React + TypeScript + Vite + D3.js + Zustand
