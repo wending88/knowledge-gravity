@@ -1,0 +1,111 @@
+import type { TranslationKey } from './zh';
+
+const en: Record<TranslationKey, string> = {
+  // Toolbar
+  'toolbar.new': '📝 New',
+  'toolbar.new.title': 'New blank canvas',
+  'toolbar.new.confirm': 'Create a new blank canvas? Current content will be cleared.',
+  'toolbar.import': '📂 Import',
+  'toolbar.import.title': 'Import JSON',
+  'toolbar.export': '💾 Export',
+  'toolbar.export.title': 'Export JSON',
+  'toolbar.table': '📋 Table',
+  'toolbar.table.title': 'Table view',
+  'toolbar.sample': '🔄 Sample',
+  'toolbar.sample.title': 'Load sample',
+  'toolbar.path': '🔗 Path',
+  'toolbar.path.title': 'Path mode: click two nodes to calculate shortest path',
+  'toolbar.path.selectEnd': ' (select end)',
+  'toolbar.path.selectStart': ' (select start)',
+  'toolbar.search': 'Search nodes...',
+  'toolbar.pathLength': 'Path length: {count} nodes',
+  'toolbar.theme.title': 'Toggle theme',
+  'toolbar.groupFilter': 'Filter groups:',
+  'toolbar.clearFilter': 'Clear',
+  'toolbar.language': 'Language',
+
+  // App
+  'app.addNode': 'Add node',
+  'app.newNodePrefix': 'New node',
+  'app.defaultGroup': 'Default',
+  'app.import.missingFields': 'JSON missing nodes/edges fields',
+  'app.import.jsonOnly': 'Only .json files are supported',
+  'app.import.failed': 'Import failed: ',
+  'app.unnamedCanvas': 'Untitled Canvas',
+
+  // PropertyPanel - Node
+  'panel.node.title': 'Node Properties',
+  'panel.node.delete': 'Delete node',
+  'panel.node.name': 'Name',
+  'panel.node.group': 'Group',
+  'panel.node.description': 'Description',
+  'panel.node.color': 'Color',
+  'panel.node.size': 'Size',
+  'panel.node.size.small': 'S',
+  'panel.node.size.medium': 'M',
+  'panel.node.size.large': 'L',
+  'panel.node.shape': 'Shape',
+  'panel.node.pathStart': '✓ Set as start, click another node as end',
+  'panel.node.inPath': 'This node is in the current path',
+  'panel.node.clickToSetPath': 'Click a node to set as start',
+  'panel.node.addEdge': '+ Add Connection',
+  'panel.node.linkingHint': 'Click target node on canvas',
+  'panel.node.from': 'From: ',
+  'panel.node.cancel': 'Cancel',
+  'panel.node.searchTarget': 'Search target node',
+  'panel.node.searchPlaceholder': 'Type to filter...',
+  'panel.node.target': 'Target: ',
+  'panel.node.edgeLabel': 'Edge label',
+  'panel.node.edgeLabelPlaceholder': 'Edge label',
+  'panel.node.pickFromCanvas': '🎯 Pick target on canvas',
+  'panel.node.add': 'Add',
+  'panel.node.connected': 'Connected ({count})',
+  'panel.node.defaultEdgeLabel': 'related',
+
+  // PropertyPanel - Edge
+  'panel.edge.title': 'Edge Properties',
+  'panel.edge.delete': 'Delete edge',
+  'panel.edge.label': 'Label',
+  'panel.edge.color': 'Color',
+  'panel.edge.width': 'Width ({width})',
+  'panel.edge.style': 'Style',
+  'panel.edge.style.solid': 'Solid',
+  'panel.edge.style.dashed': 'Dashed',
+  'panel.edge.style.dotted': 'Dotted',
+
+  // Shape options
+  'shape.rect': 'Rect',
+  'shape.circle': 'Circle',
+  'shape.diamond': 'Diamond',
+  'shape.triangle': 'Triangle',
+
+  // TableView
+  'table.nodes': 'Nodes ({count})',
+  'table.edges': 'Edges ({count})',
+  'table.addNode': '+ Add Node',
+  'table.addEdge': '+ Add Edge',
+  'table.close': '✕ Close',
+  'table.th.color': 'Color',
+  'table.th.name': 'Name',
+  'table.th.group': 'Group',
+  'table.th.size': 'Size',
+  'table.th.shape': 'Shape',
+  'table.th.description': 'Description',
+  'table.th.action': 'Action',
+  'table.th.source': 'Source',
+  'table.th.target': 'Target',
+  'table.th.label': 'Label',
+  'table.th.width': 'Width',
+  'table.th.style': 'Style',
+  'table.delete': 'Delete',
+  'table.defaultNode': 'Node',
+  'table.defaultEdge': 'Edge',
+
+  // StatusBar
+  'status.groups': 'Groups: {count}',
+
+  // Store alerts
+  'store.noPathFound': 'No connected path found',
+};
+
+export default en;
