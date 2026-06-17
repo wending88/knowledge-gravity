@@ -6,7 +6,7 @@
 
 ## 在线体验
 
-👉 [点击打开](https://wwendyng.github.io/knowledge-gravity/)
+👉 [点击打开](https://wending88.github.io/knowledge-gravity/)
 
 ## 功能
 
