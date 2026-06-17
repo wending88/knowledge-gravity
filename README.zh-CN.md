@@ -1,6 +1,6 @@
 **[English](README.md)** | **[中文](README.zh-CN.md)**
 
-# Knowledge Gravity
+# Knowledge Gravity - 知识图谱
 
 一个基于浏览器的知识图谱可视化工具，支持拖拽布局、实时编辑和 JSON 导入导出。
 
