@@ -6,7 +6,7 @@ A browser-based knowledge graph visualization tool with force-directed layout, r
 
 ## Live Demo
 
-👉 [Open App](https://wwendyng.github.io/knowledge-gravity/)
+👉 [Open App](https://wending88.github.io/knowledge-gravity/)
 
 ## Features
 
