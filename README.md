@@ -20,16 +20,6 @@ A browser-based knowledge graph visualization tool with force-directed layout, r
 - **i18n**: Switch between Chinese and English with the language button in the top-right corner
 - **Dark Mode**: Toggle light/dark theme with the theme button in the top-right corner
 
-## Quick Start
-
-```bash
-cd knowledge-graph
-npm install
-npm run dev
-```
-
-Open http://localhost:5173/
-
 ## Tech Stack
 
 React + TypeScript + Vite + D3.js + Zustand
